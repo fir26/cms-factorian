@@ -1,0 +1,183 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  padding-top: 50px;
+}
+nav {
+  background-color: white;
+  height: 80px;
+  /*position: fixed;
+  top: 0;*/
+  width: 100%;
+  z-index: 1;
+}
+nav h1 {
+  float: left;
+  border: 3px solid black;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  margin-top: 17px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  padding: 30px 20px;
+  font-size: 14px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+nav li a:hover {
+  background-color: #eee;
+  color: black;
+  text-decoration: none;
+}
+nav li a:focus {
+  background-color: #eee;
+  color: black;
+  text-decoration: none;
+}
+
+header {
+  margin-bottom: 50px;
+}
+header img {
+  position: relative;
+}
+header .title {
+  display: none;
+  width: 500px;
+  position: absolute;
+  top: 0;
+  left: 45%;
+  color: white;
+  z-index: 1;
+}
+header .title h2 {
+  font-size: 54px;
+}
+header .title p {
+  font-size: 22px;
+}
+
+.thumbnail {
+  padding: 0;
+  margin-bottom: 50px;
+  line-height: 2;
+  border: none;
+}
+.thumbnail .caption {
+  padding: 0;
+  color: black;
+}
+.thumbnail .caption h3 {
+  font-weight: bold;
+}
+.thumbnail .caption a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.thumbnail .caption a:hover {
+  color: black;
+  text-decoration: none;
+}
+.thumbnail .caption a:after {
+  content: " →";
+}
+.media-heading {
+  font-weight: bold;
+}
+
+.well {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #202020;
+  color: white;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+}
+.well h3 {
+  font-size: 38px;
+  float: left;
+  margin: 0;
+}
+.well a {
+  float: right;
+}
+
+.transition h3 {
+  margin: 50px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.thumbnail .caption h4 {
+  font-weight: bold;
+}
+
+.transition p {
+  padding: 25px;
+  text-align: center;
+}
+.transition a {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+}
+.transition a:hover {
+  color: black;
+  text-decoration: none;
+}
+.transition a:after {
+  content: " →";
+}
+
+footer {
+  background-color: #202020;
+  color: white;
+  line-height: 1.7;
+}
+.footer {
+  padding: 25px 0 70px 0;
+}
+footer h1 {
+  border: 3px solid white;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  font-size: 18px;
+  padding: 5px 25px 5px 25px;
+  margin-top: 17px;
+}
+footer h4 {
+  padding-bottom: 5px;
+}
+footer ul {
+  float: left;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+footer li a {
+  color: white;
+  text-decoration: none;
+}
+footer li a:hover {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
